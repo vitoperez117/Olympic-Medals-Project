@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Olympic Medal Count</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    
+    <h1 class="display-4">Olympic Medal Count by Country Throughout History</h1>
+    
+    
+    <div class="row">
+        <div class="col-sm-4">
+        <img src="../olympicrings.png" class="img-thumbnail" alt="Fig. 1">
+        </div>
+        <div class="col-sm-8">
+            <p>The purpose of this project was to analyze the relationship between latitude and climate. The data fof the analysis was retrieved from the OpenWeatherMap API; we retrieved the data for 500 cities that were randomly selected.</p>
+            <p>To help us us visualize the data we used Matplotib to plot latitude against Max. Temp, Humidity, Cloud %, and Wind. Please feel free to explore this website to find the source data and the visualizations created for the analysis.</p>
+
+        </div>
+          </div>
+
+    </p>
+  </div>
+
+  <div class="jumbotron">
+    
+   <!-- <h1 class="display-4">Bar Chart</h1>-->
+    
+    
+    <div class="row">
+            <div class="col-sm-12">
+                        <!--Stacked bar-->
+            <h1> </h1> 
+            <h1>Stacked Bar Chart</h1>
+            <p>Select the type of Olympic Medal and the year; then press submit to display the graph.</p>
+        <input type="checkbox" id="gold">Gold</input><br> 
+        <input type="checkbox" id="silver">Silver</input><br> 
+        <input type="checkbox" id="bronze">Bronze</input><br> 
+        <br>
+        <input id="value"></input><br>
+        <input id="slider" type="range" min="1986" max="2016" step="2"><br>
+        <br>
+        <button id="submit">submit</button>
+
+            <div class="col-med-10 my-9">
+            <div class="card">
+                <div class="card-body">
+                    <p id="header">Medal Placements at the (Blank) Olympics</p>
+                </div>
+                <hr>
+                <div class="card-body">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+            <!--Stacked bar end-->
+            </div>
+            <div class="col-sm-8">
+              <p>The purpose of this project was to analyze the relationship between latitude and climate. The data fof the analysis was retrieved from the OpenWeatherMap API; we retrieved the data for 500 cities that were randomly selected.</p>
+              <p>To help us us visualize the data we used Matplotib to plot latitude against Max. Temp, Humidity, Cloud %, and Wind. Please feel free to explore this website to find the source data and the visualizations created for the analysis.</p>
+              
+            </div>
+          </div>
+
+    </p>
+  </div>
+
+  <div class="jumbotron">
+    
+    <h1 class="display-4">World Map</h1>
+    
+    
+    <div class="row">
+            <div class="col-sm-4">
+            <img src="olympicrings.png" class="img-thumbnail" alt="Fig. 1">
+            </div>
+            <div class="col-sm-8">
+              <p>The purpose of this project was to analyze the relationship between latitude and climate. The data fof the analysis was retrieved from the OpenWeatherMap API; we retrieved the data for 500 cities that were randomly selected.</p>
+              <p>To help us us visualize the data we used Matplotib to plot latitude against Max. Temp, Humidity, Cloud %, and Wind. Please feel free to explore this website to find the source data and the visualizations created for the analysis.</p>
+              
+            </div>
+          </div>
+
+    </p>
+  </div>
+
+  <div class="jumbotron">
+    
+    <h1 class="display-4">Medal Count Throughout History</h1>
+    
+    
+    <div class="row">
+            <div class="col-sm-4">
+            <img src="olympicrings.png" class="img-thumbnail" alt="Fig. 1">
+            </div>
+            <div class="col-sm-8">
+              <p>The purpose of this project was to analyze the relationship between latitude and climate. The data fof the analysis was retrieved from the OpenWeatherMap API; we retrieved the data for 500 cities that were randomly selected.</p>
+              <p>To help us us visualize the data we used Matplotib to plot latitude against Max. Temp, Humidity, Cloud %, and Wind. Please feel free to explore this website to find the source data and the visualizations created for the analysis.</p>
+              
+            </div>
+          </div>
+
+    </p>
+  </div>
+  <div class="col">
+        <h2><p class="text-info">Visualizations</p></h2>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="max_temp.html">
+                <img src="Fig1.png" alt="lat vs. Max Temp" style="width:75%">
+                <div class="caption">
+                   <p>How does Latitude affect Temperature?</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="humidity.html">
+                <img src="Fig2.png" alt="lat vs. Humidity" style="width:75%">
+                <div class="caption">
+                   <p>How does Latitude affect Humidity?</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="cloud.html">
+                <img src="Fig3.png" alt="lat vs. Cloud" style="width:75%">
+                <div class="caption">
+                   <p>How does Latitude affect cloud cover?</p>
+                </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="wind.html">
+                <img src="Fig4.png" alt="lat vs. wind" style="width:75%">
+                <div class="caption">
+                  <p>How does Latitude affect wind speed?</p>
+                </div>
+                </a>
+            </div>
+        </div>    
+    </div>
+ 
+</body>
